@@ -7,9 +7,13 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind:build": "npx tailwindcss -i css/tailwind.css -o css/styles.css",
+    "tailwind:watch": "npx tailwindcss -i css/tailwind.css -o css/styles.css --watch"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
     "tailwindcss": "^4.2.2"
   }
 }
