@@ -3,7 +3,9 @@ import '../CSS/style.css'
 import App from './App.vue'
 
 
-createApp(App).mount('#app')
+createApp(App).mount('#app');
+
+
 var openButton = document.getElementById('open-drawer-button');
 var closeButton = document.getElementById('close-drawer-button');
 var drawer = document.querySelector('.drawer');

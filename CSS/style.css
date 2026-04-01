@@ -1,20 +1,74 @@
 /*********************************GENERAL STYLES*********************************/
 body {
-  background-color: #f0f0f0;
-  color: #333;
-  font-family: Arial, sans-serif;
+  margin: 80px;
+  background-color: aliceblue;
+  color: darkblue;
+  margin: 0 auto;
+  overflow-x: hidden;
+  /*Hides the drawer current set to right: -100%*/
 }
 
-h1 {
-  color: #007BFF;
-  margin-bottom: 20px;
+div {
+  border: 1px solid darkblue;
 }
 
-p {
-  font-size: 1.2em;
-  line-height: 1.5;
-  margin-bottom: 15px;
+.page-container {
+  display: grid;
+  grid-template-columns: minmax(auto, 150px) 3fr;
+  grid-template-rows: 50px 1fr;
+  /* grid-gap: 10px; */
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  width: 100vw;
+  height: 100vh;
 }
 
-/*********************************LAYOUT STYLES*********************************/
-/*********************************INDEX.HTML STYLES*********************************//*# sourceMappingURL=style.css.map */
+.header {
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  grid-column: 1/3;
+  background-color: lightcoral;
+}
+
+.drawer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  background-color: black;
+  height: 110vh;
+  padding: 10px;
+  transition: right 0.5s ease-in-out;
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.drawer[aria-hidden=true] {
+  right: -100%;
+  /*Use this ^ instead of display:none to allow for keyframes and animations.*/
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 100%;
+  padding: 20px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 75vw;
+}
+
+.info-container > * {
+  text-align: center;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
