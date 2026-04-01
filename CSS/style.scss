@@ -4,29 +4,31 @@
 
 
 body {
-    margin: 80px;
+    width: 80%;
+    margin: 0 auto;
     background-color: aliceblue;
     color: darkblue;
-    margin: 0 auto;
     overflow-x: hidden;
     /*Hides the drawer current set to right: -100%*/
+    display: grid;
 }
 
 div {
     border: 1px solid darkblue;
 }
 
-.page-container {
-    display: grid;
-    grid-template-columns: minmax( auto, 150px) 3fr;
-    grid-template-rows: 50px 1fr;
-    /* grid-gap: 10px; */
-    column-gap: 10px;
-    width:100vw;
-    height: 100vh;
-}
+// .page-container {
+//     display: grid;
+//     grid-template-columns: minmax( auto, 150px) 3fr;
+//     grid-template-rows: 50px 1fr;
+//     /* grid-gap: 10px; */
+//     column-gap: 10px;
+//     width:100vw;
+//     height: 100vh;
+// }
 
-.header {
+header {
+    display: grid;
 /* grid-column-start: 1;
 grid-column-end: 3; */
 grid-column: 1/3;
