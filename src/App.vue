@@ -6,6 +6,8 @@ import CButton from './components/CButton.vue'
 const count = ref(0)
 </script>
 
+
+
 <template>
   <div>
     <h1>New Products</h1>
