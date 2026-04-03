@@ -60,17 +60,36 @@ header ul li a {
     right: 0;
     width: 50vw;
     background-color: black;
-    height: 110vh;
+    height: 100vh;
     padding: 10px;
     transition: right 0.5s ease-in-out;
     color: aliceblue;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
-.drawer[aria-hidden="true"] {
+.drawer[aria-hidden="false"] {
     right: -100%;
     /*Use this ^ instead of display:none to allow for keyframes and animations.*/
+}
+
+.drawer button {
+    background-color: lightcoral;
+    color: darkblue;
+    border: 1px solid darkblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.drawer-content {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
 }
 
 .product {
