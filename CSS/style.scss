@@ -103,7 +103,7 @@ header ul li a {
     align-content: center;
 }
 
-.drawer[aria-hidden="false"] {
+.drawer[aria-hidden="true"] {
     right: -100%;
     /*Use this ^ instead of display:none to allow for keyframes and animations.*/
 }
