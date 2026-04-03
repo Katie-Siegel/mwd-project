@@ -34,9 +34,9 @@
         <div class="drawer-content">
             <h2>Product Details</h2>
             <img id="product-image" :src="this.product.imageUrl" alt="Product Image">
-            <p id="product-name">Product Name:`this.product.name`</p>
-            <p id="product-price">Price: `this.product.price`</p>
-            <p id="product-description">Description: `this.product.description`</p>
+            <p id="product-name">Product Name: "${this.product.name}"</p>
+            <p id="product-price">Price: "${this.product.price}"</p>
+            <p id="product-description">Description: "${this.product.description}" </p>
         </div>  
         <button id="close-drawer-button">Back to Search</button>
     </div>
