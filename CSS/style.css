@@ -56,19 +56,32 @@ header ul li a {
   width: 100%;
 }
 
-.product-search {
-  grid-column: 1/3;
+#app .product-search {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  row-gap: 20px;
   padding: 20px;
 }
 
+div.product-search > * {
+  display: grid;
+  text-align: center;
+}
+
+.product-card {
+  grid-column: 1/1;
+  grid-row: 1/1;
+  border: 1px solid darkblue;
+  background-color: lightseagreen;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .product-search img {
-  grid-column: 1/6;
-  grid-row: 1/6;
-  width: 200%;
+  width: 100%;
   height: auto;
 }
 

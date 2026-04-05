@@ -14,7 +14,7 @@ function setSelectedProduct(id) {
 }
 
 onMounted(async () => {
-  const res = await fetch('https://api.escuelajs.co/api/v1/products?offset=0&limit=4')
+  const res = await fetch('https://api.escuelajs.co/api/v1/products?offset=0&limit=20')
   products.value = await res.json()
 })
 </script>
