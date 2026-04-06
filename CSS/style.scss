@@ -95,8 +95,13 @@ div.product-search > * {
     justify-content: center;
 }
 
+.product-card .product-image {
+    width: 50%;
+    height: auto;
+}
+
 .product-search img {
-    width: 100%;
+    width: 50%;
     height: auto;
 }
 
