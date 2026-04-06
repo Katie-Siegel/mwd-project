@@ -5,10 +5,9 @@ import App from './App.vue'
 
 createApp(App).mount('#app');
 
-
-var openButton = document.getElementById('open-drawer-button');
+var openButton = document.getElementById('product-card');
 var closeButton = document.getElementById('close-drawer-button');
-var drawer = document.querySelector('.drawer');
+var drawer = document.querySelector('drawer');
 var toggleDrawer = function (iWantItOpen) {
     if (iWantItOpen) {
         drawer.setAttribute('aria-hidden', 'false');
