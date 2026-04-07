@@ -1,7 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import CButton from './components/CButton.vue'
-
+import'./main.js'
 const products = ref([])
 const selected_product_id = ref(null)
 
@@ -44,8 +43,6 @@ onMounted(async () => {
         <h3 class="price">Price: ${{ selected_product.price }}</h3>
         <div>{{ selected_product.description }}</div>
       </div>
-      <CButton>Click Me</CButton>
-      <button id="close-drawer-button">Back to Search</button>
     </div>
   </div>
 </template>
