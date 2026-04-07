@@ -22,8 +22,6 @@ onMounted(async () => {
 <template>
   <div>
     <h1>New Products</h1>
-    <CButton>Click Me</CButton>
-
     <div class="product-search">
       <div v-if="products.length > 0">
         <div 
@@ -43,9 +41,10 @@ onMounted(async () => {
       <img :src="selected_product.images[0]" />
       <div class="product-info">
         <h1>{{ selected_product.title }}</h1>
-        <div class="price">${{ selected_product.price }}</div>
+        <h3 class="price">Price: ${{ selected_product.price }}</h3>
         <div>{{ selected_product.description }}</div>
       </div>
+      <CButton>Click Me</CButton>
       <button id="close-drawer-button">Back to Search</button>
     </div>
   </div>
