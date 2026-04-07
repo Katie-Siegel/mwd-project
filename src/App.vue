@@ -46,6 +46,7 @@ onMounted(async () => {
         <div class="price">${{ selected_product.price }}</div>
         <div>{{ selected_product.description }}</div>
       </div>
+      <button id="close-drawer-button">Back to Search</button>
     </div>
   </div>
 </template>
