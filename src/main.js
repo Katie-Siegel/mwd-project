@@ -24,3 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
         toggleDrawer(false);
     });
 });
+
+
+
+document.getElementById('copyright-year').textContent = new Date().getFullYear();
