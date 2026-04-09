@@ -100,11 +100,11 @@ div.product-search > * {
 }
 
 .drawer {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 50vw;
-  background-color: black;
+  background-color: lightseagreen;
   height: 100vh;
   padding: 10px;
   transition: right 0.5s ease-in-out;
@@ -120,7 +120,7 @@ div.product-search > * {
   /*Use this ^ instead of display:none to allow for keyframes and animations.*/
 }
 
-.drawer button {
+.close-drawer-button {
   background-color: lightcoral;
   color: darkblue;
   border: 1px solid darkblue;
