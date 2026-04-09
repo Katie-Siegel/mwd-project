@@ -120,21 +120,26 @@ div.product-search > * {
   /*Use this ^ instead of display:none to allow for keyframes and animations.*/
 }
 
+.drawer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  height: 80%;
+}
+
+.product-info {
+  height: 50vh;
+}
+
 .close-drawer-button {
+  z-index: 10;
   background-color: lightcoral;
   color: darkblue;
   border: 1px solid darkblue;
   padding: 10px;
   margin: 20px;
   cursor: pointer;
-}
-
-.drawer-content {
-  width: 90%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  text-align: left;
 }
 
 footer {
