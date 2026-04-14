@@ -78,7 +78,8 @@ header ul li a {
 #app .product-search {
     width: 80vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr 1fr 1fr 1fr 1fr 1fr));
+    grid-template-rows: auto;
     row-gap: 20px;
     padding: 20px;
 }
