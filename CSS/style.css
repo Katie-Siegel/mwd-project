@@ -1,6 +1,6 @@
 /*********************************GENERAL STYLES*********************************/
 body {
-  width: 100%;
+  width: 100vw;
   margin: 0 auto;
   color: darkblue;
   overflow-x: hidden;
@@ -22,14 +22,14 @@ header ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   -moz-column-gap: 10px;
        column-gap: 10px;
-  margin: 20px auto;
+  margin: 30px 20px;
   padding: 0;
 }
 
 header ul li {
   list-style: none;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid darkblue;
   background-color: lightseagreen;
 }
@@ -45,7 +45,7 @@ header ul li a {
   justify-content: center;
   align-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 20px;
   width: 80vw;
   background-color: lightseagreen;
 }
@@ -62,7 +62,7 @@ header ul li a {
   grid-template-rows: auto;
   row-gap: 20px;
   padding: 20px;
-  margin: 0 auto;
+  margin: 0 20px;
 }
 
 .product-search > * {
@@ -71,7 +71,7 @@ header ul li a {
   width: 80vw;
 }
 
-#app div {
+.product-search div {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -80,11 +80,20 @@ header ul li a {
   row-gap: 10px;
 }
 
+#app div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 75vw;
+  margin: 0 auto;
+  row-gap: 10px;
+}
+
 #app h1 {
   grid-column: 1/1;
   grid-row: 1/1;
   width: 100%;
-  margin: 10px 0;
+  margin: 10px 20px;
 }
 
 .product-card {
@@ -97,16 +106,20 @@ header ul li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .product-card .product-image {
   width: 50%;
   height: auto;
+  margin: 0 20px;
+  align-self: center;
 }
 
 .product-search img {
   width: 50%;
   height: auto;
+  margin: 0 20px;
 }
 
 .product {
@@ -116,6 +129,7 @@ header ul li a {
   padding: 20px;
   -moz-column-gap: 20px;
        column-gap: 20px;
+  margin: 0 20px;
 }
 
 .drawer {
