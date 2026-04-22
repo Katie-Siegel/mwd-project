@@ -19,7 +19,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div>
+  <div class="template-container">
     <h1>New Products</h1>
     <div class="product-search">
       <div v-if="products.length > 0">
