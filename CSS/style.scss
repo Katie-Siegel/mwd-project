@@ -219,21 +219,28 @@ header ul li a {
 .product-info img {
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 0 40px;
 }
 
 .product-info h2 {
     text-align: center;
-    margin: 10px 30px;
+    margin: 10px 40px;
+}
+
+.product-info h3 {
+    text-align: center;
+    margin: 10px 40px;
 }
 
 .product-info p {
     text-align: center;
-    margin: 10px 30px;
+    margin: 10px 40px;
 }
 
 .product-info {
   height: 50vh;
+  align-content: center;
+  justify-content: center;
 }
 
 .close-drawer-button {
