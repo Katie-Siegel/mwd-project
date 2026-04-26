@@ -41,7 +41,7 @@ onMounted(async () => {
       <div class="product-info">
         <h2>{{ selected_product.title }}</h2>
         <h3 class="price">Price: ${{ selected_product.price }}</h3>
-        <div>{{ selected_product.description }}</div>
+        <p>{{ selected_product.description }}</p>
         <button class="close-drawer-button" @click="selected_product_id = null">Back to Search</button>
       </div>
     </div>
