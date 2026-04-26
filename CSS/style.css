@@ -1,4 +1,4 @@
-/*********************************GENERAL STYLES*********************************/
+/*********************************MOBILE -- GENERAL STYLES*********************************/
 body {
   margin: 0;
   color: darkblue;
@@ -9,6 +9,12 @@ body {
 h1 {
   font-size: 2.5rem;
   margin: 30px auto;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 10px auto;
+  text-align: center;
 }
 
 p {
@@ -152,7 +158,7 @@ header ul li a {
   right: 0;
   width: 50vw;
   background-color: lightseagreen;
-  height: 100vh;
+  height: 75vh;
   padding: 10px;
   transition: right 0.5s ease-in-out;
   color: aliceblue;
@@ -175,6 +181,18 @@ header ul li a {
   gap: 10px;
   width: 80%;
   height: 80%;
+  padding: 0 20px;
+}
+
+.product-info img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.product-info h2 {
+  text-align: center;
+  margin: 10px 30px;
 }
 
 .product-info {
@@ -198,4 +216,7 @@ footer {
   padding: 10px;
   width: 100%;
   margin: 0 auto;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*********************************TABLET -- GENERAL STYLES*********************************/
+/*********************************DESKTOP -- GENERAL STYLES*********************************//*# sourceMappingURL=style.css.map */
