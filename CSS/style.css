@@ -1,7 +1,9 @@
 /*********************************MOBILE -- GENERAL STYLES*********************************/
 body {
-  margin: 0;
-  color: darkblue;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: darkblue;
   overflow-x: hidden;
   /*Hides the drawer current set to right: -100%*/
 }
@@ -63,6 +65,16 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: darkblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .text-container {
