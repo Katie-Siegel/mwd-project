@@ -107,11 +107,7 @@ main {
     margin: 0 auto;
     width: 80vw;
     background-color: lightseagreen; 
-}
-
-.text-container > * {
     text-align: center;
-    width: 100%;
 }
 
 #app .product-search {
@@ -177,14 +173,15 @@ main {
     margin: 0 auto;
 }
 
-.product-card .product-image {
+.product-image {
     width: 50%;
     height: auto;
-    margin: 0 20px;
+    margin: 10px 20px;
     align-self: center;
 }
 
 .product-card {
+    width: 80vw;
     height: min-content;
 }
 
