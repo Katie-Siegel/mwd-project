@@ -4,6 +4,7 @@
 
 
 body {
+    box-sizing: border-box;
         margin: 0 auto;
         padding: 0;
         font-family: Arial, sans-serif;
@@ -181,6 +182,10 @@ main {
     height: auto;
     margin: 0 20px;
     align-self: center;
+}
+
+.product-card {
+    height: min-content;
 }
 
 .product-search img {
