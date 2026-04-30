@@ -192,10 +192,10 @@ main {
   /*Use this ^ instead of display:none to allow for keyframes and animations.*/
 }
 
-.drawer-content {
+#app div .drawer-content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-around;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -205,7 +205,6 @@ main {
 .drawer img {
   width: 60%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 .product-info img {
