@@ -187,7 +187,7 @@ main {
 }
 
 .product-search img {
-    width: 50%;
+    width: 75%;
     height: auto;
     margin: 0 20px;
 }
@@ -205,16 +205,16 @@ main {
     position: fixed;
     top: 0;
     right: 0;
-    width: 50vw;
     background-color: lightseagreen;
-    height: 75vh;
-    padding: 10px;
+    height: 90vh;
+    padding: 0 10px;
     transition: right 0.5s ease-in-out;
     color: aliceblue;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-content: flex-start;
     border:5px solid lightcoral;
 }
 
@@ -227,31 +227,39 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 10px;
-    width: 80%;
-    height: 80%;
-    padding: 0 20px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    // background-color: lime;
+}
+
+.drawer img {
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .product-info img {
     width: 100%;
     height: auto;
     margin: 0 40px;
+    align-self: center;
 }
 
 .product-info h2 {
     text-align: center;
-    margin: 10px 40px;
+    margin: 20px 40px;
 }
 
 .product-info h3 {
     text-align: center;
-    margin: 10px 40px;
+    margin: 0 40px;
 }
 
 .product-info p {
     text-align: center;
-    margin: 10px 40px;
+    margin: 0 15px;
 }
 
 .product-info {

@@ -37,12 +37,14 @@ onMounted(async () => {
     </div>
 
     <div v-if="selected_product" class="drawer">
-      <img :src="selected_product.images[0]" />
-      <div class="product-info">
-        <h2>{{ selected_product.title }}</h2>
-        <h3 class="price">Price: ${{ selected_product.price }}</h3>
-        <p>{{ selected_product.description }}</p>
-        <button class="close-drawer-button" @click="selected_product_id = null">Back to Search</button>
+      <div class="drawer-content">
+        <img :src="selected_product.images[0]" />
+        <div class="product-info">
+          <h2>{{ selected_product.title }}</h2>
+          <h3 class="price">Price: ${{ selected_product.price }}</h3>
+          <p>{{ selected_product.description }}</p>
+          <button class="close-drawer-button" @click="selected_product_id = null">Back to Search</button>
+        </div>
       </div>
     </div>
   </div>
