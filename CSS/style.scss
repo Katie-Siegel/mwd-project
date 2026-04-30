@@ -226,7 +226,7 @@ main {
 #app div .drawer-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
     width: 100%;
@@ -237,35 +237,36 @@ main {
 .drawer img {
     width: 60%;
     height: auto;
+    margin-top: 20px;
 }
 
-.product-info img {
-    width: 100%;
-    height: auto;
-    margin: 0 40px;
-    align-self: center;
-}
+// .product-info img {
+//     width: 100%;
+//     height: auto;
+//     margin: 0 40px;
+//     align-self: center;
+// }
 
 .product-info h2 {
     text-align: center;
-    margin: 20px 40px;
+    width: 80%;
 }
 
 .product-info h3 {
     text-align: center;
-    margin: 0 40px;
+    margin: 0 20px;
 }
 
 .product-info p {
     text-align: center;
-    margin: 0 15px;
+    width: 90%;
 }
 
-.product-info {
-  height: 50vh;
-  align-content: center;
-  justify-content: center;
-}
+// .product-info {
+//   height: 50vh;
+//   align-content: center;
+//   justify-content: center;
+// }
 
 .close-drawer-button {
     z-index: 10;
