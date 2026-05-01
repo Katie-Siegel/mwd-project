@@ -203,8 +203,8 @@ main {
 }
 
 .drawer img {
-  width: 60vw;
-  height: auto;
+  width: auto;
+  height: 20vh;
   margin-top: 20px;
 }
 
@@ -221,7 +221,7 @@ main {
 
 .product-info p {
   text-align: center;
-  width: 90%;
+  width: 100%;
 }
 
 .close-drawer-button {
