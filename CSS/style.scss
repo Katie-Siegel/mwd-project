@@ -295,7 +295,9 @@ footer p {
 
 /*********************************TABLET -- GENERAL STYLES*********************************/
 @media screen and (min-width: 768px) {
-   
+    header {
+        justify-content: left;
+    }
   }
 
 
