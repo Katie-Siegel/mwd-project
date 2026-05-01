@@ -249,4 +249,14 @@ footer p {
 }
 
 /*********************************TABLET -- GENERAL STYLES*********************************/
-/*********************************DESKTOP -- GENERAL STYLES*********************************//*# sourceMappingURL=style.css.map */
+@media screen and (min-width: 768px) {
+  body {
+    background: lightblue;
+  }
+}
+/*********************************DESKTOP -- GENERAL STYLES*********************************/
+@media screen and (min-width: 1200px) {
+  body {
+    background: lightgreen;
+  }
+}/*# sourceMappingURL=style.css.map */
