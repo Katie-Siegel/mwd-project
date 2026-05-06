@@ -210,9 +210,17 @@ main {
 }
 
 .drawer img {
-  width: auto;
+  width: max(80vw, auto);
   height: 30vh;
   margin-top: 20px;
+}
+
+.drawer p {
+  text-align: center;
+  width: 100%;
+  padding: 0 auto;
+  overflow: scroll;
+  max-height: 20vh;
 }
 
 .product-info h2 {
