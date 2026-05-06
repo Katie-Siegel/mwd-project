@@ -93,6 +93,13 @@ main {
   text-align: center;
 }
 
+.text-container h1 {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  color: darkblue;
+}
+
 #app .product-search {
   width: 80vw;
   display: grid;
