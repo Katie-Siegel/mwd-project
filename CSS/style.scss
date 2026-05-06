@@ -12,6 +12,7 @@ body {
     background-color: darkblue;
     overflow-x: hidden;
     /*Hides the drawer current set to right: -100%*/
+    font-size: 14px;
 }
 
 h1 {
@@ -310,6 +311,7 @@ footer p {
 
 /*********************************TABLET -- GENERAL STYLES*********************************/
 @media screen and (min-width: 768px) {
+    
     header {
         justify-content: left;
     }
@@ -322,6 +324,10 @@ footer p {
         width: auto;
         height: 40vh;
         margin-top: 20px;
+    }
+
+    .drawer p {
+        max-height: 30vh;
     }
   }
 

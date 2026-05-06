@@ -8,6 +8,7 @@ body {
   background-color: darkblue;
   overflow-x: hidden;
   /*Hides the drawer current set to right: -100%*/
+  font-size: 14px;
 }
 
 h1 {
@@ -275,6 +276,9 @@ footer p {
     width: auto;
     height: 40vh;
     margin-top: 20px;
+  }
+  .drawer p {
+    max-height: 30vh;
   }
 }
 /*********************************DESKTOP -- GENERAL STYLES*********************************//*# sourceMappingURL=style.css.map */
