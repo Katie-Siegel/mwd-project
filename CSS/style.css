@@ -268,5 +268,8 @@ footer p {
   header {
     justify-content: left;
   }
+  header nav {
+    margin-left: 40px;
+  }
 }
 /*********************************DESKTOP -- GENERAL STYLES*********************************//*# sourceMappingURL=style.css.map */
