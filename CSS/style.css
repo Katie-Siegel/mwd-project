@@ -51,7 +51,7 @@ header nav {
 header ul {
   grid-column: 1/3;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   -moz-column-gap: 10px;
        column-gap: 10px;
   margin: 20px auto;
@@ -61,7 +61,7 @@ header ul {
 header ul li {
   list-style: none;
   text-align: center;
-  padding: 10px 30px;
+  padding: 10px;
   border: 1px solid darkblue;
   background-color: lightseagreen;
 }
