@@ -222,17 +222,20 @@ main {
   padding: 0 auto;
   overflow: scroll;
   max-height: 20vh;
+  font-size: 1rem;
 }
 
 .product-info h2 {
   text-align: center;
   width: 80%;
+  font-size: 2rem;
 }
 
 .product-info h3 {
   text-align: center;
   margin: 0 20px;
   width: 90%;
+  font-size: 1.5rem;
 }
 
 .product-info p {
@@ -284,4 +287,9 @@ footer p {
     max-height: 30vh;
   }
 }
-/*********************************DESKTOP -- GENERAL STYLES*********************************//*# sourceMappingURL=style.css.map */
+/*********************************DESKTOP -- GENERAL STYLES*********************************/
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 22px;
+  }
+}/*# sourceMappingURL=style.css.map */
