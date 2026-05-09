@@ -242,12 +242,6 @@ main {
     width: 100%;
 }
 
-// .product-info {
-//   height: 50vh;
-//   align-content: center;
-//   justify-content: center;
-// }
-
 .close-drawer-button {
     z-index: 10;
     background-color: lightcoral;
@@ -274,6 +268,10 @@ footer p {
 
 /*********************************TABLET -- GENERAL STYLES*********************************/
 @media screen and (min-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
     
     header {
         justify-content: left;
