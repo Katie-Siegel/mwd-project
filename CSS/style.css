@@ -11,19 +11,19 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.5em;
   margin: 30px auto;
   color: lightcoral;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   margin: 10px auto;
   text-align: center;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1em;
   margin: 5px 15px 20px;
   width: 100%;
 }
@@ -221,20 +221,20 @@ main {
   padding: 0 auto;
   overflow: scroll;
   max-height: 20vh;
-  font-size: 1rem;
+  font-size: 1em;
 }
 
 .product-info h2 {
   text-align: center;
   width: 80%;
-  font-size: 2rem;
+  font-size: 2em;
 }
 
 .product-info h3 {
   text-align: center;
   margin: 0 20px;
   width: 90%;
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 .product-info p {
