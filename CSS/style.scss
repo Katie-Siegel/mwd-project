@@ -256,6 +256,9 @@ main {
 
 footer {
     display: flex;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: lightcoral;
     text-align: center;
     padding: 15px 0px;
@@ -266,6 +269,9 @@ footer {
 footer p {
     color: darkblue;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 /*********************************TABLET -- GENERAL STYLES*********************************/
