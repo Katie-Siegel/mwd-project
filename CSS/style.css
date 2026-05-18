@@ -289,18 +289,18 @@ footer p {
     margin-top: 20px;
   }
   .drawer p {
-    max-height: 30vh;
+    max-height: 40vh;
   }
   .product-info h2 {
     text-align: center;
     width: 80%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .product-info h3 {
     text-align: center;
     margin: 0 20px;
     width: 90%;
-    font-size: 1.5em;
+    font-size: 1.125em;
   }
 }
 /*********************************DESKTOP -- GENERAL STYLES*********************************/
