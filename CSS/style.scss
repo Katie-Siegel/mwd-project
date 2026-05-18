@@ -298,6 +298,19 @@ footer p {
     .drawer p {
         max-height: 30vh;
     }
+
+    .product-info h2 {
+        text-align: center;
+        width: 80%;
+        font-size: 2em;
+    }
+    
+    .product-info h3 {
+        text-align: center;
+        margin: 0 20px;
+        width: 90%;
+        font-size: 1.5em;
+    }
   }
 
 
@@ -308,5 +321,20 @@ footer p {
 @media screen and (min-width: 1200px) {
     body {
         font-size: 22px;
+    }
+
+    .drawer img {
+        width: max(50vw, auto);
+        height: 30vh;
+        margin-top: 20px;
+    }
+    
+    .drawer p {
+        text-align: center;
+        width: 100%;
+        padding: 0 auto;
+        overflow: scroll;
+        max-height: 50vh;
+        font-size: 1em;
     }
   }
