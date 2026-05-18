@@ -289,19 +289,7 @@ footer p {
     margin-top: 20px;
   }
   .drawer p {
-    max-height: 40vh;
-    padding: 20px 0;
-  }
-  .product-info h2 {
-    text-align: center;
-    width: 80%;
-    font-size: 1.5em;
-  }
-  .product-info h3 {
-    text-align: center;
-    margin: 0 20px;
-    width: 90%;
-    font-size: 1.125em;
+    max-height: 30vh;
   }
 }
 /*********************************DESKTOP -- GENERAL STYLES*********************************/
@@ -321,5 +309,16 @@ footer p {
     overflow: scroll;
     max-height: 50vh;
     font-size: 1em;
+  }
+  .product-info h2 {
+    text-align: center;
+    width: 80%;
+    font-size: 2em;
+  }
+  .product-info h3 {
+    text-align: center;
+    margin: 0 20px;
+    width: 90%;
+    font-size: 1.5em;
   }
 }/*# sourceMappingURL=style.css.map */
