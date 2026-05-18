@@ -299,26 +299,26 @@ footer p {
   }
   .drawer img {
     width: max(50vw, auto);
-    height: 30vh;
+    height: 40vh;
     margin-top: 20px;
   }
   .drawer p {
     text-align: center;
     width: 100%;
-    padding: 0 auto;
-    overflow: scroll;
+    padding: 20px auto;
+    overflow: hidden;
     max-height: 50vh;
     font-size: 1em;
   }
   .product-info h2 {
     text-align: center;
     width: 80%;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .product-info h3 {
     text-align: center;
     margin: 0 20px;
     width: 90%;
-    font-size: 1.5em;
+    font-size: 1.125em;
   }
 }/*# sourceMappingURL=style.css.map */
