@@ -272,6 +272,12 @@ footer p {
   padding: 10px;
 }
 
+footer a {
+  color: darkblue;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
 /*********************************TABLET -- GENERAL STYLES*********************************/
 @media screen and (min-width: 768px) {
   body {
