@@ -166,6 +166,9 @@ main {
   width: 75%;
   height: auto;
   margin: 0 20px;
+}
+
+.product-search img:hover {
   cursor: pointer;
 }
 
@@ -250,6 +253,9 @@ main {
   border: 1px solid darkblue;
   padding: 10px;
   margin: 20px;
+}
+
+.close-drawer-button:hover {
   cursor: pointer;
 }
 
@@ -277,6 +283,9 @@ footer a {
   color: darkblue;
   text-decoration: none;
   margin: 0 10px;
+}
+
+footer a:hover {
   cursor: pointer;
 }
 
