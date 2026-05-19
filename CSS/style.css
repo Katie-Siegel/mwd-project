@@ -166,6 +166,7 @@ main {
   width: 75%;
   height: auto;
   margin: 0 20px;
+  cursor: pointer;
 }
 
 .product {
@@ -276,6 +277,7 @@ footer a {
   color: darkblue;
   text-decoration: none;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 /*********************************TABLET -- GENERAL STYLES*********************************/
