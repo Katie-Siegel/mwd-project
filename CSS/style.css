@@ -283,6 +283,9 @@ footer p {
   header nav {
     margin-left: 40px;
   }
+  .text-container {
+    margin: 30px auto 10px;
+  }
   .drawer img {
     width: auto;
     height: 40vh;
