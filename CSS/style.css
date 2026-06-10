@@ -316,6 +316,8 @@ footer a:hover {
 @media screen and (min-width: 1200px) {
   body {
     font-size: 22px;
+    scrollbar-width: thin;
+    scrollbar-color: lightcoral darkblue;
   }
   .drawer img {
     width: max(50vw, auto);
