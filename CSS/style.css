@@ -318,6 +318,7 @@ footer a:hover {
     font-size: 22px;
     scrollbar-width: thin;
     scrollbar-color: darkblue lightcoral;
+    /*Check if this has been fully implimented in chrome*/
   }
   .drawer img {
     width: max(50vw, auto);
