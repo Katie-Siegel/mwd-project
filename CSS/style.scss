@@ -333,6 +333,21 @@ footer a:hover {
         /*Check if this has been fully implimented in chrome*/
     }
 
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: lightcoral;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: darkblue;
+        border-radius: 10px;
+        border: 2px solid lightcoral;
+    }
+
+
     .drawer img {
         width: max(50vw, auto);
         height: 40vh;
