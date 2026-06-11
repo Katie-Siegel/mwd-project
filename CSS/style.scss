@@ -289,10 +289,16 @@ footer a {
 
 footer .content-info, .social-media, .copyright-info {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
     margin: 7px auto;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    padding: 3px;
 }
 
 footer a:hover {
