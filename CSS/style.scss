@@ -287,6 +287,14 @@ footer a {
     margin: 0 10px;
 }
 
+footer .content-info, .social-media, .copyright-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 7px auto;
+}
+
 footer a:hover {
     cursor: pointer;
 }
