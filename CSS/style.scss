@@ -222,6 +222,7 @@ main {
     height: 100%;
     width: 100%;
     row-gap: 0;
+    color: $color-text-dark;
 }
 
 .drawer img {
@@ -260,8 +261,8 @@ main {
 .close-drawer-button {
     z-index: 10;
     background-color: $color-background-light;
-    color: $color-text-light;
-    border: 1px solid $color-text-light;
+    color: $color-text-dark;
+    border: 1px solid $color-text-dark;
     padding: 10px;
     margin: 20px;
 }

@@ -214,6 +214,7 @@ main {
   height: 100%;
   width: 100%;
   row-gap: 0;
+  color: darkblue;
 }
 
 .drawer img {
@@ -252,8 +253,8 @@ main {
 .close-drawer-button {
   z-index: 10;
   background-color: lightseagreen;
-  color: lightcoral;
-  border: 1px solid lightcoral;
+  color: darkblue;
+  border: 1px solid darkblue;
   padding: 10px;
   margin: 20px;
 }
