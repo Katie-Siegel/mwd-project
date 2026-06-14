@@ -47,39 +47,35 @@ header {
     justify-content: center;
     align-content: center;
     align-items: center;
-}
-
-header nav {
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content:left;
-    align-content: center;
-    align-items: center;
-        
-}
-
-header ul  {
-    grid-column: 1/3;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 10px;
-    margin: 20px auto;
-    padding: 0;
-}
-
-header ul li {
-    list-style: none;
-    text-align: center;
-    padding: 10px 15px;
-    border: 1px solid $color-text-dark;
-    background-color: $color-background-light;
-    margin: 0px 5px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: $color-text-dark;
+    nav {
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content:left;
+        align-content: center;
+        align-items: center;
+            
+    }
+    ul  {
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        margin: 20px auto;
+        padding: 0;
+        li {
+            list-style: none;
+            text-align: center;
+            padding: 10px 15px;
+            border: 1px solid $color-text-dark;
+            background-color: $color-background-light;
+            margin: 0px 5px;
+            a {
+                text-decoration: none;
+                color: $color-text-dark;
+            }
+        }
+    }
 }
 
 main {
