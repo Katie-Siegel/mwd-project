@@ -357,14 +357,14 @@ footer a:hover {
     }
 
     ::-webkit-scrollbar-track {
-        background: lightcoral;
-        border: 3px solid darkblue;
+        background: $color-background-light;
+        border: 3px solid $color-text-dark !important;
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: darkblue;
+        background-color: $color-background-dark;
         border-radius: 15px;
-        border: 3px solid lightcoral;
+        border: 3px solid $color-text-dark !important;
     }
 
 

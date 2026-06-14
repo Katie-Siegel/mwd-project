@@ -338,13 +338,13 @@ footer a:hover {
     width: 15px;
   }
   ::-webkit-scrollbar-track {
-    background: lightcoral;
-    border: 3px solid darkblue;
+    background: lightseagreen;
+    border: 3px solid darkblue !important;
   }
   ::-webkit-scrollbar-thumb {
     background-color: darkblue;
     border-radius: 15px;
-    border: 3px solid lightcoral;
+    border: 3px solid darkblue !important;
   }
   .drawer img {
     width: max(50vw, auto);
