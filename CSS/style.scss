@@ -230,22 +230,22 @@ main {
     font-size: 1em;
 }
 
-.product-info h2 {
+.product-info {
+    h2 {
     text-align: center;
     width: 80%;
     font-size: 2em;
-}
-
-.product-info h3 {
+    }
+    h3 {
     text-align: center;
     margin: 0 20px;
     width: 90%;
     font-size: 1.5em;
-}
-
-.product-info p {
+    }
+    p {
     text-align: center;
     width: 100%;
+    }
 }
 
 .close-drawer-button {
