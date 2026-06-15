@@ -151,6 +151,8 @@ main {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    width: 80vw;
+    height: min-content;
 }
 
 .product-image {
@@ -159,11 +161,6 @@ main {
     margin: 10px 20px;
     align-self: center;
     box-shadow: 8px 10px 8px rgba(185, 13, 13, 0.2);
-}
-
-.product-card {
-    width: 80vw;
-    height: min-content;
 }
 
 .product-search img {
