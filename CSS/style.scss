@@ -168,11 +168,10 @@ main {
     height: auto;
     margin: 0 20px;
     box-shadow: 4px 4px 4px lightcoral;
-}
-
-.product-search img:hover {
-    opacity: 0.8;
-    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
 }
 
 .product {
