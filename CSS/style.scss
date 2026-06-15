@@ -126,12 +126,6 @@ main {
     }
 }
 
-.template-container h1 {
-    width: 100%;
-    margin: 10px auto;
-    text-align: center;
-}
-
 .template-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -139,6 +133,11 @@ main {
     row-gap: 20px;
     width: 80vw;
     margin: 0 auto;
+    h1 {
+        width: 100%;
+        margin: 10px auto;
+        text-align: center;
+    }
 }
 
 .product-card {
