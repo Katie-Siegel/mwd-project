@@ -199,10 +199,9 @@ main {
     justify-content: center;
     align-content: flex-start;
     border:5px solid $color-text-light;
-}
-
-.drawer[aria-hidden="true"] {
-    right: -100%;
+    [aria-hidden="true"] {
+        right: -100%;
+    }
 }
 
 #app div .drawer-content {

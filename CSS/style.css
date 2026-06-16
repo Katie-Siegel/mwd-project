@@ -191,8 +191,7 @@ main {
   align-content: flex-start;
   border: 5px solid lightcoral;
 }
-
-.drawer[aria-hidden=true] {
+.drawer [aria-hidden=true] {
   right: -100%;
 }
 
