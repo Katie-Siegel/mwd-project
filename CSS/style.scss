@@ -2,7 +2,8 @@
 /***************************************VARIABLES******************************/
 
 $color-text-light: lightcoral;
-$color-text-dark: darkblue; 
+$color-text-dark: darkblue;
+$color-text-medium: lightseagreen; 
 $color-background-light: lightseagreen;
 $color-background-dark: darkblue;
 $color-background-header: lightcoral;
@@ -257,6 +258,7 @@ main {
     margin: 20px;
     &:hover {
         cursor: pointer;
+        color:
     }
 }
 
