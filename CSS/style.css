@@ -263,7 +263,6 @@ footer {
   width: 100%;
   margin: 0;
 }
-
 footer p {
   color: darkblue !important;
   text-align: center;
@@ -271,14 +270,12 @@ footer p {
   margin: 5px auto;
   padding: 2px;
 }
-
 footer a {
   color: darkblue !important;
   text-decoration: none;
   margin: 0 10px;
 }
-
-footer .content-info, .social-media, .copyright-info {
+footer .content-info, footer .social-media, footer .copyright-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -286,12 +283,10 @@ footer .content-info, .social-media, .copyright-info {
   width: 100%;
   margin: 7px auto;
 }
-
 footer .social-media a {
   margin: 0 10px;
   padding: 3px;
 }
-
 footer a:hover {
   cursor: pointer;
 }
