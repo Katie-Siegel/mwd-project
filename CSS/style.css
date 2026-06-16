@@ -248,6 +248,8 @@ main {
 }
 .close-drawer-button:hover {
   cursor: pointer;
+  color: lightseagreen;
+  background-color: darkblue;
 }
 
 footer {

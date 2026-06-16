@@ -258,7 +258,8 @@ main {
     margin: 20px;
     &:hover {
         cursor: pointer;
-        color:
+        color:$color-text-medium;
+        background-color: $color-background-dark;
     }
 }
 
