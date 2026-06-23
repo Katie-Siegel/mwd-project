@@ -356,19 +356,20 @@ footer {
     }
 
 
-    .drawer img {
+    .drawer {
+        img {
         width: max(50vw, auto);
         height: 40vh;
         margin-top: 20px;
-    }
-    
-    .drawer p {
+        }
+        p {
         text-align: center;
         width: 100%;
         padding: 20px auto;
         overflow: hidden;
         max-height: 50vh;
         font-size: 1em;
+        }
     }
 
     .product-info h2 {
