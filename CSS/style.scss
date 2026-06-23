@@ -310,24 +310,24 @@ footer {
     
     header {
         justify-content: left;
-    }
-
-    header nav {
-        margin-left: 40px;
+        nav {
+            margin-left: 40px;
+        }
     }
 
     .text-container {
         margin: 30px auto 10px;
     }
 
-    .drawer img {
+    .drawer {
+        img {
         width: auto;
         height: 40vh;
         margin-top: 20px;
-    }
-
-    .drawer p {
+        }
+        p {
         max-height: 30vh;
+        }
     }
  
   }
